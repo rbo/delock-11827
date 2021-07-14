@@ -3,12 +3,22 @@ Some informations around my delock-11827
 
 ## Build
 
+<https://tasmota.github.io/docs/Compile-your-build/> recommended: TasmoCompiler
+
+
+
  * Generic ESP8266
  * Timers
- * REgeln
- * Stromsensoren
+ * Rules
+ * Energy sensors
+ * Home Assistant
  * Web Interface
  * Paramter: `#define USE_PROMETHEUS`
+
+
+![](assets/images/2021-07-14-12-48-17-1626259697.png)
+![](assets/images/2021-07-14-12-48-30-1626259710.png)
+
 
 ## Upgrade to latest tasmota
 
@@ -19,6 +29,8 @@ Some informations around my delock-11827
  * install the official version v9.1   from <http://ota.tasmota.com/tasmota/release-9.1.0/tasmota.bin>
  * install the custom firmware with prometheus: `v9.2.0/firmware.bin.gz`
  * install the custom firmware with prometheus: `v9.4.0/firmware.bin.gz`
+ * install the custom firmware with prometheus & Home Assistant: `v9.5.0/firmware.bin.gz`
+
 
 
 ## Configuration:
